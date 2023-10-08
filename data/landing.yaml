@@ -23,8 +23,8 @@ hero:
   #   alt: "Lotus Docs Logo"
   #   height: 80px
 
-  title: "Lotus Docs"
-  subtitle: A lightweight, **modern documentation** theme for Hugo. Easily customised for building **fast**, **secure**, and **SEO-friendly** documentation sites.
+  title: "Dexign"
+  subtitle: Dexign is a modern design library for **UI/UX Designers, Product Managers, and Consultants** working in the digital product design space. It is built using [Lotus Docs](https://lotusdocs.dev/) theme for Hugo.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -36,10 +36,10 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "/docs/quickstart/#create-a-new-lotus-docs-site"
+    url: "/docs/about"
   cta2Button:
-    icon: construction
-    btnText: "In Development"
+    icon: monetization_on
+    btnText: "Get Premium"
     url: "https://github.com/colinwilson/lotusdocs"
 
   info: "**Open Source** MIT Licensed."
@@ -49,7 +49,7 @@ features:
   enable: true
   weight: 20
 
-  title: Why choose Lotus Docs?
+  title: Why use Dexign?
   subtitle: Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
 
   items:
@@ -99,50 +99,42 @@ image_compare:
 
   items:
     - title: Dark Mode
-      config: {
-        startingPoint: 50,
-        addCircle: true,
-        addCircleBlur: false,
-        showLabels: true,
-        labelOptions: {
-          before: 'Dark',
-          after: 'Light',
-          onHover: false
+      config:
+        {
+          startingPoint: 50,
+          addCircle: true,
+          addCircleBlur: false,
+          showLabels: true,
+          labelOptions: { before: "Dark", after: "Light", onHover: false },
         }
-      }
       imagePath: "images/screenshots"
       imageBefore: "lotusdocs_dark_v0.8.webp"
       imageAfter: "lotusdocs_light_v0.8.webp"
 
     - title: Custom Fonts
-      config: {
-        controlColor: "#3C4257",
-        startingPoint: 25,
-        addCircle: true,
-        addCircleBlur: false,
-        showLabels: true,
-        labelOptions: {
-          before: 'Inter',
-          after: 'Life Saver',
-          onHover: false
+      config:
+        {
+          controlColor: "#3C4257",
+          startingPoint: 25,
+          addCircle: true,
+          addCircleBlur: false,
+          showLabels: true,
+          labelOptions:
+            { before: "Inter", after: "Life Saver", onHover: false },
         }
-      }
       imagePath: "images/screenshots"
       imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
       imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
 
     - title: Accent Color
-      config: {
-        startingPoint: 25,
-        addCircle: true,
-        addCircleBlur: true,
-        showLabels: true,
-        labelOptions: {
-          before: 'Blue',
-          after: 'Cardinal',
-          onHover: false
+      config:
+        {
+          startingPoint: 25,
+          addCircle: true,
+          addCircleBlur: true,
+          showLabels: true,
+          labelOptions: { before: "Blue", after: "Cardinal", onHover: false },
         }
-      }
       imagePath: "images/screenshots"
       imageBefore: "lotusdocs_blue_theme_colour.webp"
       imageAfter: "lotusdocs_cardinal_theme_colour.webp"
