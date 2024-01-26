@@ -7,22 +7,24 @@ This repository offers a multilingual example site using the [Lotus Docs](https:
 1. [Install Hugo](https://gohugo.io/overview/installing/)
 2. Clone this repository
 
-    ```bash
-    $ git clone --depth 1 https://github.com/colinwilson/lotusdocs lotusdocs
-    $ cd lotusdocs/exampleSite
-    ```
+   ```bash
+   $ git clone --depth 1 https://github.com/mahendra-xyz/lotusdocs lotusdocs
+   $ cd lotusdocs/exampleSite
+   ```
+
 3. Run Hugo server.
 
-    ```bash
-    $ hugo server
-    ```
+   ```bash
+   $ hugo server
+   ```
+
 ## Notes:
 
-The `exampleSite` functions by using the Hugo [`replace`](https://gohugo.io/hugo-modules/use-modules/#make-and-test-changes-in-a-module) directive (in [`go.mod`](go.mod#L10)) to point the default `lotusdocs` module path, `github.com/colinwilson/lotusdocs`, to the local directory above where the theme is cloned:
+The `exampleSite` functions by using the Hugo [`replace`](https://gohugo.io/hugo-modules/use-modules/#make-and-test-changes-in-a-module) directive (in [`go.mod`](go.mod#L10)) to point the default `lotusdocs` module path, `github.com/mahendra-xyz/lotusdocs`, to the local directory above where the theme is cloned:
 
 ```go
 // go.mod
 ...
 
-replace github.com/colinwilson/lotusdocs => ../
+replace github.com/mahendra-xyz/lotusdocs => ../
 ```

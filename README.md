@@ -10,32 +10,31 @@ Check out the demo site [https://lotusdocs.dev/docs/](https://lotusdocs.dev/docs
 
 ## Features
 
-* [x] Modern documentation layout
-* [x] Responsive design / Mobile support
-* [x] Fast, Accessible and SEO-Friendly (4 x 💯 scores on [Google Lighthouse](https://pagespeed.web.dev/)!)
-* [x] Secure by default
-* [x] Built on Bootstrap 5
-* [x] Deploy on [GitHub Pages](https://pages.github.com/), [GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/), [Vercel](https://vercel.com/), [Netlify](https://netlify.com), or [Cloudflare Pages](https://pages.cloudflare.com/)
-* [x] Multilingual support (i18n)
-* [x] Powerful Syntax Highlighting via [Prism.js](https://prismjs.com/)
-* [x] Dark Mode
-* [x] Custom fonts (via [Google Fonts](https://fonts.google.com/))
-* [x] Custom icons (via [Google Material Symbols](https://fonts.google.com/icons?icon.style=Outlined&icon.set=Material+Symbols))
-* [x] Landing page template included
-* [x] Documentation sidebar menu (with optional icons)
-* [x] Table of Contents menu on each page (optional)
-* [x] Customisable theme accent colour
-* [x] Social media links (Github, Twitter, Instagram etc)
-* [x] Static Search plugin option (powered by [FlexSearch](https://github.com/nextapps-de/flexsearch), enabled by default)
-* [x] Support for [DocSearch](https://docsearch.algolia.com/)
-* [x] Custom shortcodes (PrismJS, Alerts, Tabs, Tables)
-* [x] Analytics ([Google Analytics v4](https://analytics.google.com/analytics/web/), [Plausible Analytics](https://plausible.io/))
-* [x] Cross-browser testing via [BrowserStack](https://browserstack.com)
-* [x] Feedback widget
-* [x] Math equations powered by [KaTeX](https://katex.org/)
-* [x] [Mermaid](https://mermaid.js.org/) Support
-* [ ] [Open Graph](https://ogp.me/)
-
+- [x] Modern documentation layout
+- [x] Responsive design / Mobile support
+- [x] Fast, Accessible and SEO-Friendly (4 x 💯 scores on [Google Lighthouse](https://pagespeed.web.dev/)!)
+- [x] Secure by default
+- [x] Built on Bootstrap 5
+- [x] Deploy on [GitHub Pages](https://pages.github.com/), [GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/), [Vercel](https://vercel.com/), [Netlify](https://netlify.com), or [Cloudflare Pages](https://pages.cloudflare.com/)
+- [x] Multilingual support (i18n)
+- [x] Powerful Syntax Highlighting via [Prism.js](https://prismjs.com/)
+- [x] Dark Mode
+- [x] Custom fonts (via [Google Fonts](https://fonts.google.com/))
+- [x] Custom icons (via [Google Material Symbols](https://fonts.google.com/icons?icon.style=Outlined&icon.set=Material+Symbols))
+- [x] Landing page template included
+- [x] Documentation sidebar menu (with optional icons)
+- [x] Table of Contents menu on each page (optional)
+- [x] Customisable theme accent colour
+- [x] Social media links (Github, Twitter, Instagram etc)
+- [x] Static Search plugin option (powered by [FlexSearch](https://github.com/nextapps-de/flexsearch), enabled by default)
+- [x] Support for [DocSearch](https://docsearch.algolia.com/)
+- [x] Custom shortcodes (PrismJS, Alerts, Tabs, Tables)
+- [x] Analytics ([Google Analytics v4](https://analytics.google.com/analytics/web/), [Plausible Analytics](https://plausible.io/))
+- [x] Cross-browser testing via [BrowserStack](https://browserstack.com)
+- [x] Feedback widget
+- [x] Math equations powered by [KaTeX](https://katex.org/)
+- [x] [Mermaid](https://mermaid.js.org/) Support
+- [ ] [Open Graph](https://ogp.me/)
 
 ## Getting Started
 
@@ -63,7 +62,7 @@ The Lotus Docs theme can be installed using one of the following methods:
 
 ### Install as a Hugo Module (recommended)
 
-Edit the `hugo.toml` configuration file to include the [Lotus Docs theme](https://github.com/colinwilson/lotusdocs) and the [Hugo Bootstrap module](https://github.com/gohugoio/hugo-mod-bootstrap-scss) as modules:
+Edit the `hugo.toml` configuration file to include the [Lotus Docs theme](https://github.com/mahendra-xyz/lotusdocs) and the [Hugo Bootstrap module](https://github.com/gohugoio/hugo-mod-bootstrap-scss) as modules:
 
 ```toml
 baseURL = 'http://example.org/'
@@ -72,7 +71,7 @@ title = 'My New Hugo Site'
 
 [module]
     [[module.imports]]
-        path = "github.com/colinwilson/lotusdocs"
+        path = "github.com/mahendra-xyz/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
@@ -85,7 +84,7 @@ From the root of your project run the following `git` commands:
 
 ```bash
 git init
-git submodule add https://github.com/colinwilson/lotusdocs themes/lotusdocs
+git submodule add https://github.com/mahendra-xyz/lotusdocs themes/lotusdocs
 ```
 
 Edit the `hugo.toml` config file:
@@ -98,9 +97,9 @@ title = 'My New Hugo Site'
 [module]
     # uncomment line below for temporary local development of module
     # or when using a 'theme' as a git submodule
-    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    replacements = "github.com/mahendra-xyz/lotusdocs -> lotusdocs"
     [[module.imports]]
-        path = "github.com/colinwilson/lotusdocs"
+        path = "github.com/mahendra-xyz/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
@@ -112,7 +111,7 @@ title = 'My New Hugo Site'
 There may be cases where you prefer to customize and maintain the Lotus Docs theme yourself. In such cases, use `git` to clone the theme into the `themes/lotusdocs` directory:
 
 ```bash
-git clone https://github.com/colinwilson/lotusdocs themes/lotusdocs
+git clone https://github.com/mahendra-xyz/lotusdocs themes/lotusdocs
 ```
 
 Edit the `hugo.toml` config file:
@@ -125,9 +124,9 @@ title = 'My New Hugo Site'
 [module]
     # uncomment line below for temporary local development of module,
     # when using a 'theme' as a git submodule or git cloned files
-    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    replacements = "github.com/mahendra-xyz/lotusdocs -> lotusdocs"
     [[module.imports]]
-        path = "github.com/colinwilson/lotusdocs"
+        path = "github.com/mahendra-xyz/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"

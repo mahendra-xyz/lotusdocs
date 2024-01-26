@@ -96,12 +96,13 @@ title = 'My New Hugo Site'
 
 [module]
     [[module.imports]]
-        path = "github.com/colinwilson/lotusdocs"
+        path = "github.com/mahendra-xyz/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
 ```
+
 {{% alert context="info" text="**Note**: Hugo ≥ v0.110.0 changed the name of the default config base filename to `hugo.toml`. If you're running an earlier version of Hugo, consider renaming your `config.toml` file to `hugo.toml`." /%}}
 
 {{% /tab %}}
@@ -111,7 +112,7 @@ Initialize Git and clone the Lotus Docs theme repository as a submodule:
 
 ```shell
 git init
-git submodule add https://github.com/colinwilson/lotusdocs themes/lotusdocs
+git submodule add https://github.com/mahendra-xyz/lotusdocs themes/lotusdocs
 ```
 
 Update your existing `hugo.toml` config file with the configuration below:
@@ -140,7 +141,7 @@ In cases where you prefer to customise and maintain the Lotus Docs theme yoursel
 Run the following command from your project’s root directory to clone the Lotus Docs theme into your `themes` subdirectory:
 
 ```shell
-git clone https://github.com/colinwilson/lotusdocs themes/lotusdocs
+git clone https://github.com/mahendra-xyz/lotusdocs themes/lotusdocs
 ```
 
 Edit the `hugo.toml` configuration file to include the Lotus Docs theme and the Hugo Bootstrap module (lines `5 to 11` below):
@@ -158,6 +159,7 @@ title = 'My New Hugo Site'
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
 ```
+
 {{< alert context="info" text="**Note**: Hugo ≥ v0.110.0 changed the name of the default config base filename to `hugo.toml`. If you're running an earlier version of Hugo, consider renaming your `config.toml` file to `hugo.toml`." />}}
 
 {{% /tab %}}
@@ -211,6 +213,7 @@ Navigate to the root of your Hugo project and use the `hugo new` command to crea
 ```shell
 hugo new docs/examplepage.md
 ```
+
 ...
 {{< /prism >}}
 

@@ -26,7 +26,7 @@ defaultContentLanguage = 'en'
     extended = true
     min = "0.100.0"
   [[module.imports]]
-    path = "github.com/colinwilson/lotusdocs"
+    path = "github.com/mahendra-xyz/lotusdocs"
     disable = false
   [[module.imports]]
     path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
@@ -80,7 +80,7 @@ defaultContentLanguage = 'en'
         prism           = true                                # enable syntax highlighting via Prism
 
         # gitinfo
-        repoURL         = "https://github.com/colinwilson/lotusdocs.dev"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
+        repoURL         = "https://github.com/mahendra-xyz/lotusdocs.dev"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
         repoBranch      = "release"
         editPage        = true                                # enable 'Edit this page' feature - default false
         lastMod         = true                                # enable 'Last modified' date on pages - default false
