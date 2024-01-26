@@ -2,14 +2,13 @@
 
 [Lotus Docs](https://lotusdocs.dev) is an easily updated and customisable [Hugo](https://gohugo.io/) theme for building fast, secure, and SEO-friendly documentation sites.
 
-![Lotus Docs Banner](https://res.cloudinary.com/lotuslabs/image/upload/v1693340144/Lotus%20Docs/Social%20Media/lotus-docs-screenshot_hugo-themes-website_v2_3200x1800_rd_m9y7xh.webp)
+![Lotus Docs Banner](https://res.cloudinary.com/lotuslabs/image/upload/r_10/v1693340386/Lotus%20Docs/Social%20Media/lotus_docs_social_preview_github_1280x640_colour_v1.3_xzm1ex.webp)
 
 Check out the demo site [https://lotusdocs.dev/docs/](https://lotusdocs.dev/docs/) (also doubles as the documentation guide for Lotus Docs 📖)
 
-🚧 **WARNING** 🚧 - **Lotus Docs is currently in pre-release development and thus not recommended for use in production at this time. But please do try it out 😊. Pull requests and feedback are most welcome.**
-
 ## Features
 
+<<<<<<< HEAD
 - [x] Modern documentation layout
 - [x] Responsive design / Mobile support
 - [x] Fast, Accessible and SEO-Friendly (4 x 💯 scores on [Google Lighthouse](https://pagespeed.web.dev/)!)
@@ -35,14 +34,42 @@ Check out the demo site [https://lotusdocs.dev/docs/](https://lotusdocs.dev/docs
 - [x] Math equations powered by [KaTeX](https://katex.org/)
 - [x] [Mermaid](https://mermaid.js.org/) Support
 - [ ] [Open Graph](https://ogp.me/)
+=======
+* [x] Modern documentation layout
+* [x] Responsive design / Mobile support
+* [x] Fast, Accessible and SEO-Friendly (4 x 💯 scores on [Google Lighthouse](https://pagespeed.web.dev/)!)
+* [x] Secure by default
+* [x] Built on Bootstrap 5
+* [x] Deploy on [GitHub Pages](https://lotusdocs.dev/docs/deployment/platforms/github-pages/), [GitLab Pages](https://lotusdocs.dev/docs/deployment/platforms/gitlab-pages/), [Vercel](https://vercel.com/), [Netlify](https://netlify.com), or [Cloudflare Pages](https://pages.cloudflare.com/)
+* [x] Multilingual support (i18n)
+* [x] Powerful Syntax Highlighting via [Prism.js](https://prismjs.com/)
+* [x] Dark Mode
+* [x] Custom fonts (via [Google Fonts](https://fonts.google.com/))
+* [x] Custom icons (via [Google Material Symbols](https://fonts.google.com/icons?icon.style=Outlined&icon.set=Material+Symbols))
+* [x] Landing page template included
+* [x] Documentation sidebar menu (with optional icons)
+* [x] Table of Contents menu on each page (optional)
+* [x] Customisable theme accent colour
+* [x] Social media links (Github, Twitter, Instagram etc)
+* [x] Static Search plugin option (powered by [FlexSearch](https://github.com/nextapps-de/flexsearch), enabled by default)
+* [x] Support for [DocSearch](https://docsearch.algolia.com/)
+* [x] Custom shortcodes (PrismJS, Alerts, Tabs, Tables)
+* [x] Analytics ([Google Analytics v4](https://analytics.google.com/analytics/web/), [Plausible Analytics](https://plausible.io/))
+* [x] Cross-browser testing via [BrowserStack](https://browserstack.com)
+* [x] Feedback widget
+* [x] Math equations powered by [KaTeX](https://katex.org/)
+* [x] [Mermaid](https://mermaid.js.org/) Support
+* [x] [Open Graph](https://ogp.me/)
+
+>>>>>>> adafd1d38c6f999235f967c600a9739c0996dcfc
 
 ## Getting Started
 
 ### Requirements
 
-- Hugo **Extended** (minimum version: 0.100.0)
+- Hugo **Extended** (minimum version: 0.120.0)
 - git
-- Go (minimum version v1.19)
+- Go (minimum version v1.20)
 
 ### Initialize your site as a Hugo Module
 

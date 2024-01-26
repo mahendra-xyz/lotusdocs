@@ -79,6 +79,8 @@ defaultContentLanguage = 'en'
 
         prism           = true                                # enable syntax highlighting via Prism
 
+        prismTheme      = "solarized-light"                           # (optional) - Set theme for PrismJS. Options include: lotusdocs (default), solarized-light, twilight, lucario
+
         # gitinfo
         repoURL         = "https://github.com/mahendra-xyz/lotusdocs.dev"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
         repoBranch      = "release"
@@ -104,6 +106,11 @@ defaultContentLanguage = 'en'
         navDescTrunc    = 30                                  # Number of characters by which to truncate the Prev/Next descriptions
 
         listDescTrunc   = 100                                 # Number of characters by which to truncate the list card description
+
+        # Link behaviour
+        intLinkTooltip  = true                                # Enable a tooltip for internal links that displays info about the destination? default false
+        # extLinkNewTab   = false                             # Open external links in a new Tab? default true
+        # logoLinkURL = ""                                    # Set a custom URL destination for the top header logo link.
 
     [params.flexsearch] # Parameters for FlexSearch
         enabled             = true
